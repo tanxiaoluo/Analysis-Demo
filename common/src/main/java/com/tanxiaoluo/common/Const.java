@@ -17,6 +17,8 @@ public interface Const {
         String LEAD_CLOUD_ID = "BQISxe4Rp2jhm5ihx37KyVwa-gzGzoHsz";
         /**leanCloud*/
         String LEAD_CLOUD_KEY = "G05aoNinb1JuKxW73eX85rXt";
+
+        String BUG_HD_KEY = "ed158f5f253a1b86a08b87b2ccf306db";
     }
 
     interface ProjectName {
