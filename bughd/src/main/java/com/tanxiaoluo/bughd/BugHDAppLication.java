@@ -69,7 +69,7 @@ public class BugHDApplication extends BaseApplication {
         crashReporter = new CrashHelper.CrashReportInterface() {
             @Override
             public void report(Exception e) {
-
+                FIR.sendCrashManually(e);
             }
         };
     }
