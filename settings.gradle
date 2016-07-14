@@ -1,1 +1,1 @@
-include ':app', ':common', ':testbird'
+include ':app', ':common', ':testbird', ':bughd'

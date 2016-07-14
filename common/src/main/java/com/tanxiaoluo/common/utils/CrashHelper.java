@@ -27,7 +27,7 @@ public class CrashHelper {
 
     }
 
-    public void capturedExcetion(CrashReportInterface reporter) {
+    public static void capturedExcetion(CrashReportInterface reporter) {
         try {
             nullPointCrash();
         }

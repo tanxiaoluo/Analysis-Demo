@@ -13,12 +13,14 @@
         android:id="@+id/btn_crash_test"
         style="@style/BtnStyle"
         android:text="crash测试"
+        android:onClick="onClick"
         />
 
     <Button
         android:id="@+id/btn_event_test"
         style="@style/BtnStyle"
         android:text="埋点测试"
+        android:onClick="onClick"
         />
 
 </LinearLayout>

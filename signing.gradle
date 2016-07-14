@@ -1,0 +1,21 @@
+apply plugin: 'com.android.application'
+
+def localProps = new Properties()
+localProps.load(project.rootProject.file('local.properties').newInputStream())
+
+android {
+    signingConfigs {
+        official {
+            storeFile project.rootProject.file('official.keystore.jks')
+            storePassword '123456'
+            keyAlias 'official'
+            keyPassword '123456'
+        }
+        debug {
+            storeFile project.rootProject.file('debug.keystore.jks')
+            storePassword '123456'
+            keyAlias 'debug'
+            keyPassword '123456'
+        }
+    }
+}
