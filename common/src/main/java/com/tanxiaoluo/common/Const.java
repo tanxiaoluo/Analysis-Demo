@@ -19,6 +19,10 @@ public interface Const {
         String LEAD_CLOUD_KEY = "G05aoNinb1JuKxW73eX85rXt";
 
         String BUG_HD_KEY = "ed158f5f253a1b86a08b87b2ccf306db";
+
+        String FIRE_BASE = "";
+
+        String MTA_APP_ID = "AKD35S31SHVE";
     }
 
     interface ProjectName {

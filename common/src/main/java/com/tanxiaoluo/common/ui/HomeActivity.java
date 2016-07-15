@@ -34,7 +34,7 @@ public class HomeActivity extends BaseActivity {
 
     public void onClick(View v){
         if (v.getId() == R.id.btn_crash_test) {
-            OnEventHelper.onEvent(context, Event.ENTER_CRASH);
+//            OnEventHelper.onEvent(context, Event.ENTER_CRASH);
             qStartActivity(context,CrashActivity.class);
         } else {
             OnEventHelper.onEvent(context, Event.EMTER_EVENT);
