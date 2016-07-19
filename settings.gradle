@@ -1,1 +1,1 @@
-include ':app', ':common', ':testbird', ':bughd', ':firebase', ':mta'
+include ':app', ':common', ':testbird', ':bughd', ':firebase', ':mta', ':lean'
